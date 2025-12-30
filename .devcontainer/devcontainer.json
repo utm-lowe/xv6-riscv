@@ -1,0 +1,21 @@
+{
+    "waitFor" : "onCreateCommand",
+    "updateContentCommand": "",
+    "postCreateCommand": "sudo apt update && sudo apt-get install git build-essential gdb-multiarch qemu-system-misc gcc-riscv64-linux-gnu binutils-riscv64-linux-gnu",
+    "customizations": {
+        "codespaces": {
+          "openFiles": []
+        },
+        "vscode": {
+          "extensions": [
+            "ms-vcode.cmake-tools",
+            "ms-vscode.cpptools",
+            "ms-vscode.cpptools-extension-pack",
+            "ms-vscode.cpptools-themes",
+            "ms-vscode.makefile-tools",
+            "twxs.cmake",
+            "cschlosser.doxdocgen"
+          ]
+        }
+      }
+  }
